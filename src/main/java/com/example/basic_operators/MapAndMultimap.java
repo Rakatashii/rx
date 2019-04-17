@@ -6,7 +6,6 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.hibernate.boot.model.TypeDefinition;
 import org.springframework.core.ParameterizedTypeReference;
 
 import com.fasterxml.jackson.core.type.TypeReference;

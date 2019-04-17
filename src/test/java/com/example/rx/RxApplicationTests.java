@@ -11,6 +11,7 @@ public class RxApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		
 	}
 
 }
