@@ -79,7 +79,7 @@ public class MergeAndConcat {
 			u.setName(u.getName().toUpperCase());
 			return Flux.just(u);
 		})
-		.doOnSubscribe(s -> System.out.println()).subscribe(u -> {
+		.subscribe(u -> {
 			//System.out.println("flux["+(++i)+"] (concat): "+u);
 		});
 		System.out.println();
